@@ -50,8 +50,10 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     document.getElementById("style-switcher").classList.add('hidden');
+    document.getElementById("nav-toggler").classList.add('hidden');
   }
   else if (document.body.scrollTop < 100 || document.documentElement.scrollTop < 100){
     document.getElementById("style-switcher").classList.remove('hidden');
+    document.getElementById("nav-toggler").classList.remove('hidden')
   }
 }
