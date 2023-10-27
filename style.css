@@ -253,10 +253,19 @@ h3.my-profession{
     margin: 15px 0;
 }
 
+.my-profession2{
+    font-size: 30px;
+    margin: 15px 0;
+    display: none;
+}
+
 .typing{
     color: var(--skin-color)
 }
 
+.typing3{
+    color: var(--skin-color)
+}
 .home-info p{
     margin-bottom: 70px;
     font-size: 20px;
@@ -685,6 +694,7 @@ h3.my-profession{
     padding: 0 50px;
 }
 
+
 @media (max-width:1199px)
 {
     .aside{
@@ -775,6 +785,12 @@ h3.my-profession{
     #hire-me{
         margin-left: 20px;
         margin-top: 20px;
+    }
+    .my-profession{
+        display: none;
+    }
+    .my-profession2{
+        display: block;
     }
 }
 
